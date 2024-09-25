@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",  // Output directory for compiled files
+      "rootDir": "./src",  // Root directory of your source files
+      "strict": true,       // Enable strict type-checking options
+      "esModuleInterop": true, // Allow default imports from modules with no default export
+    },
+    "include": ["src/**/*"],  // Include all TypeScript files in src
+    "exclude": ["node_modules", "**/*.spec.ts"]  // Exclude tests and node_modules
+  }
+  

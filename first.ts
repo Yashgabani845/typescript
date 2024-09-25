@@ -14,7 +14,7 @@ interface Person {
 }
 
 // Create an object using the interface
-const person: Person = {
+const person1: Person = {
     name: "John Doe",
     age: 30,
     isEmployed: true,
